@@ -1,0 +1,41 @@
+{
+  "name": "reacttrader",
+  "version": "1.0.0",
+  "description": "react fx trader",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -w --mode=development",
+    "start":"nodemon --exec babel-node server.js --ignore public/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "json-loader": "^0.5.7",
+    "mongodb": "^2.2.10",
+    "node-sass-middleware": "^0.11.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/eslint-parser": "latest",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "babel-eslint": "latest",
+    "babel-jest": "^27.4.2",
+    "babel-loader": "^8.2.3",
+    "eslint": "^8.4.1",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "jest": "^27.4.3",
+    "nodemon": "^2.0.15",
+    "react-test-renderer": "^17.0.2",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
